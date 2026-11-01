@@ -1,32 +1,40 @@
-# React + TypeScript + Vite
+﻿# NOVA WALLET
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+### YOUR CRYPTO. YOUR CONTROL.
 
-Currently, two official plugins are available:
+NOVA WALLET es un proyecto tecnológico enfocado en desarrollar una billetera de criptomonedas de autocustodia, con una experiencia moderna, segura y accesible.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Objetivo
 
-## React Compiler
+Construir una wallet que permita a los usuarios gestionar sus activos digitales y mantener el control de sus propias claves.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías
 
-## Expanding the Oxlint configuration
+- React
+- TypeScript
+- Vite
+- Git y GitHub
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Funcionalidades previstas
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+- Creación de billeteras.
+- Generación de direcciones.
+- Recepción de criptomonedas.
+- Envío de criptomonedas.
+- Consulta de saldos.
+- Historial de transacciones.
+- Integración inicial con Ethereum Sepolia (testnet).
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Desarrollo
+
+El proyecto se encuentra en fase inicial de desarrollo.
+
+Las integraciones blockchain y las funciones de seguridad se implementarán progresivamente.
+
+## Seguridad
+
+NOVA WALLET tiene como prioridad la autocustodia y la protección de las claves privadas y frases de recuperación.
+
+---
+
+NOVA WALLET - YOUR CRYPTO. YOUR CONTROL.
